@@ -1,0 +1,48 @@
+[
+  {
+    "nodeid": 0,
+    "depth": 0,
+    "split": "f0",
+    "split_condition": 3,
+    "yes": 1,
+    "no": 2,
+    "children": [
+      {
+        "nodeid": 1,
+        "depth": 1,
+        "split": "f1",
+        "split_condition": 4,
+        "yes": 3,
+        "no": 4,
+        "children": [
+          {
+            "nodeid": 3,
+            "leaf": -1
+          },
+          {
+            "nodeid": 4,
+            "leaf": -3
+          }
+        ]
+      },
+      {
+        "nodeid": 2,
+        "depth": 1,
+        "split": "f0",
+        "split_condition": 2,
+        "yes": 5,
+        "no": 6,
+        "children": [
+          {
+            "nodeid": 5,
+            "leaf": 2
+          },
+          {
+            "nodeid": 6,
+            "leaf": 4
+          }
+        ]
+      }
+    ]
+  }
+]

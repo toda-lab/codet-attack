@@ -1,0 +1,46 @@
+[project]
+name = "codet-attack"
+version = "1.0.0"
+description = "CoDET-Attack: Constraint-Optimized Discrete Exploration for Trees"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "constrained-attacks>=0.1.1",
+    "pyscipopt>=6.2.1",
+    "scikit-learn>=1.9.0",
+    "sortedcontainers>=2.4.0",
+    "xgboost>=3.2.0",
+    "z3-solver>=5.0.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyrefly>=1.2.0",
+    "pytest>=9.1.1",
+    "ruff>=0.16.2",
+    "sortedcontainers-stubs>=2.4.3",
+]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["RUF003", "RUF002", "CPY001", "TRY003", "EM101", "S101", "EM", "D400", "D415", "PTH123", "G004", "ERA001"]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"tests/*" = ["D", "PLR2004"]
+"constraints/*" = ["D", "N815", "PLR2004"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+
+[tool.ruff]
+extend-exclude = ["main.py", "utils", "**/__init__.py"]
+line-length = 150
+
+[tool.pyrefly]
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
+]
+preset = "all"
+errors.explicit-any = 'ignore'

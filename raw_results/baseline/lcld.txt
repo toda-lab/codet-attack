@@ -1,0 +1,302 @@
+# setting: Case(model_path='dataset/lcld/xgboost_100.json', test_data_path='dataset/lcld/x_test.npy', test_range=range(0, 50), constraints=<class 'constraints.lcld.LcldCostraints'>, dump_dir='output')
+# case adv_dist exec_time(sec)
+# index: 0
+Final-SMT 18178.44 32.41
+Final-Moeva failed
+# index: 1
+Final-SMT 9.04 3.84
+Final-Moeva 6.88 6.24
+# index: 2
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 3
+Final-SMT 5.00 1.18
+Final-Moeva 1.00 6.57
+# index: 4
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 5
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 6
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 7
+Final-SMT 9.06 3.19
+Final-Moeva 3.00 6.42
+# index: 8
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 9
+Final-SMT 7525.54 13.31
+Final-Moeva failed
+# index: 10
+Final-SMT 10143.41 19.25
+Final-Moeva failed
+# index: 11
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 12
+Final-SMT 17065.69 15.83
+Final-Moeva failed
+# index: 13
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 14
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 15
+Final-SMT 2.00 3.67
+Final-Moeva 3.00 6.31
+# index: 16
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 17
+Final-SMT 37032.66 23.85
+Final-Moeva failed
+# index: 18
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 19
+Final-SMT 22106.32 20.46
+Final-Moeva failed
+# index: 20
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 21
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 22
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 23
+Final-SMT 76.21 5.14
+Final-Moeva failed
+# index: 24
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 25
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 26
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 27
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 28
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 29
+Final-SMT 11.49 12.52
+Final-Moeva 12.15 6.25
+# index: 30
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 31
+Final-SMT 9.27 4.10
+Final-Moeva 3.00 6.24
+# index: 32
+Final-SMT 11074.55 21.90
+Final-Moeva failed
+# index: 33
+Final-SMT 17.23 2.98
+Final-Moeva 13.57 6.32
+# index: 34
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 35
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 36
+Final-SMT 15922.31 15.61
+Final-Moeva failed
+# index: 37
+Final-SMT 879.66 18.92
+Final-Moeva failed
+# index: 38
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 39
+Final-SMT 2098.58 34.15
+Final-Moeva failed
+# index: 40
+Final-SMT 8.19 4.83
+Final-Moeva 4.49 6.32
+# index: 41
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 42
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 43
+Final-SMT 1999.21 18.47
+Final-Moeva failed
+# index: 44
+Final-SMT 7922.69 17.61
+Final-Moeva failed
+# index: 45
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 46
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 47
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 48
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 49
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 50
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 51
+Final-SMT 5.57 3.83
+Final-Moeva 2.00 6.26
+# index: 52
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 53
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 54
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 55
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 56
+Final-SMT 14735.28 19.42
+Final-Moeva failed
+# index: 57
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 58
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 59
+Final-SMT 8.56 6.34
+Final-Moeva 6.00 6.47
+# index: 60
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 61
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 62
+Final-SMT 3901.98 18.83
+Final-Moeva failed
+# index: 63
+Final-SMT 2.60 7.16
+Final-Moeva 1.00 6.40
+# index: 64
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 65
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 66
+Final-SMT 5.39 5.61
+Final-Moeva 2.00 6.24
+# index: 67
+Final-SMT 7.53 4.75
+Final-Moeva 8.22 6.23
+# index: 68
+Final-SMT 30576.31 20.98
+Final-Moeva failed
+# index: 69
+Final-SMT 14410.34 24.25
+Final-Moeva failed
+# index: 70
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 71
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 72
+Final-SMT 35272.99 24.53
+Final-Moeva failed
+# index: 73
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 74
+Final-SMT 29008.95 18.33
+Final-Moeva failed
+# index: 75
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 76
+Final-SMT 21909.54 24.91
+Final-Moeva failed
+# index: 77
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 78
+Final-SMT 14.78 4.57
+Final-Moeva 14.51 6.36
+# index: 79
+Final-SMT 4.07 6.21
+Final-Moeva 3.00 6.47
+# index: 80
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 81
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 82
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 83
+Final-SMT 18.02 2.31
+Final-Moeva failed
+# index: 84
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 85
+Final-SMT 21511.41 47.47
+Final-Moeva failed
+# index: 86
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 87
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 88
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 89
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 90
+Final-SMT 4198.21 24.12
+Final-Moeva failed
+# index: 91
+Final-SMT 6095.79 20.92
+Final-Moeva failed
+# index: 92
+Final-SMT 29359.71 38.13
+Final-Moeva failed
+# index: 93
+Final-SMT 27962.13 18.77
+Final-Moeva failed
+# index: 94
+Final-SMT 2.06 3.72
+Final-Moeva 2.00 6.36
+# index: 95
+Final-SMT 4418.91 17.29
+Final-Moeva failed
+# index: 96
+Final-SMT 1.39 2.16
+Final-Moeva 2.31 6.22
+# index: 97
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 98
+Final-SMT failed(smt)
+Final-Moeva failed
+# index: 99
+Final-SMT failed(smt)
+Final-Moeva failed

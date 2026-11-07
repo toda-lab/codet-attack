@@ -1,0 +1,706 @@
+# setting: Case(model_path='dataset/ctu/xgboost_100.json', test_data_path='dataset/ctu/x_test.npy', test_range=range(0, 50), constraints=<class 'constraints.ctu.CtuCostraints'>, dump_dir='output')
+# case adv_dist exec_time(sec)
+# index: 0
+# use_t_bound: False
+Final-SMT 14.06 7.32
+# use_t_bound: True
+Final-SMT 15.67 3.51
+# Moeva2
+Final-Moeva 2.00 9.34
+# index: 1
+# use_t_bound: False
+Final-SMT 6.16 9.28
+# use_t_bound: True
+Final-SMT 5.74 2.67
+# Moeva2
+Final-Moeva 8.00 9.35
+# index: 2
+# use_t_bound: False
+Final-SMT 3.74 9.48
+# use_t_bound: True
+Final-SMT 3.81 4.21
+# Moeva2
+Final-Moeva 9.00 9.09
+# index: 3
+# use_t_bound: False
+Final-SMT 4.96 5.70
+# use_t_bound: True
+Final-SMT 5.16 3.06
+# Moeva2
+Final-Moeva 4.00 9.16
+# index: 4
+# use_t_bound: False
+Final-SMT 5.44 5.75
+# use_t_bound: True
+Final-SMT 6.13 2.54
+# Moeva2
+Final-Moeva 7.00 8.98
+# index: 5
+# use_t_bound: False
+Final-SMT 10.03 5.92
+# use_t_bound: True
+Final-SMT 11.07 2.88
+# Moeva2
+Final-Moeva 16.00 9.19
+# index: 6
+# use_t_bound: False
+Final-SMT 10.30 8.14
+# use_t_bound: True
+Final-SMT 9.96 3.38
+# Moeva2
+Final-Moeva 2.00 9.19
+# index: 7
+# use_t_bound: False
+Final-SMT 6.57 9.95
+# use_t_bound: True
+Final-SMT 3.76 3.73
+# Moeva2
+Final-Moeva 16.00 9.12
+# index: 8
+# use_t_bound: False
+Final-SMT 7.52 6.08
+# use_t_bound: True
+Final-SMT 7.32 3.41
+# Moeva2
+Final-Moeva 8.00 9.33
+# index: 9
+# use_t_bound: False
+Final-SMT 6.74 9.93
+# use_t_bound: True
+Final-SMT 6.37 2.64
+# Moeva2
+Final-Moeva 8.00 9.08
+# index: 10
+# use_t_bound: False
+Final-SMT 8.22 6.22
+# use_t_bound: True
+Final-SMT 7.45 3.03
+# Moeva2
+Final-Moeva 9.00 9.16
+# index: 11
+# use_t_bound: False
+Final-SMT 10.66 6.17
+# use_t_bound: True
+Final-SMT 10.66 3.02
+# Moeva2
+Final-Moeva 7.00 9.12
+# index: 12
+# use_t_bound: False
+Final-SMT 5.39 5.91
+# use_t_bound: True
+Final-SMT 6.32 2.90
+# Moeva2
+Final-Moeva failed
+# index: 13
+# use_t_bound: False
+Final-SMT 7.78 5.61
+# use_t_bound: True
+Final-SMT 8.63 2.74
+# Moeva2
+Final-Moeva 8.00 9.13
+# index: 14
+# use_t_bound: False
+Final-SMT 1.60 9.66
+# use_t_bound: True
+Final-SMT 2.92 2.37
+# Moeva2
+Final-Moeva 10.00 9.20
+# index: 15
+# use_t_bound: False
+Final-SMT 14.72 5.86
+# use_t_bound: True
+Final-SMT 9.64 3.36
+# Moeva2
+Final-Moeva 7.00 9.21
+# index: 16
+# use_t_bound: False
+Final-SMT 10.42 11.34
+# use_t_bound: True
+Final-SMT 9.75 2.13
+# Moeva2
+Final-Moeva 3.00 9.18
+# index: 17
+# use_t_bound: False
+Final-SMT 5.57 5.62
+# use_t_bound: True
+Final-SMT 9.22 2.40
+# Moeva2
+Final-Moeva failed
+# index: 18
+# use_t_bound: False
+Final-SMT 8.34 5.65
+# use_t_bound: True
+Final-SMT 8.46 2.64
+# Moeva2
+Final-Moeva 7.00 9.17
+# index: 19
+# use_t_bound: False
+Final-SMT 7.72 5.80
+# use_t_bound: True
+Final-SMT 7.75 2.33
+# Moeva2
+Final-Moeva 7.00 9.23
+# index: 20
+# use_t_bound: False
+Final-SMT 2.83 9.81
+# use_t_bound: True
+Final-SMT 2.56 3.96
+# Moeva2
+Final-Moeva 8.00 9.14
+# index: 21
+# use_t_bound: False
+Final-SMT failed(smt)
+# use_t_bound: True
+Final-SMT failed(smt)
+# Moeva2
+Final-Moeva failed
+# index: 22
+# use_t_bound: False
+Final-SMT 5.66 6.02
+# use_t_bound: True
+Final-SMT 8.54 3.07
+# Moeva2
+Final-Moeva 4.00 9.16
+# index: 23
+# use_t_bound: False
+Final-SMT 2.62 11.52
+# use_t_bound: True
+Final-SMT 8.23 4.25
+# Moeva2
+Final-Moeva 2.00 9.39
+# index: 24
+# use_t_bound: False
+Final-SMT 7.42 5.63
+# use_t_bound: True
+Final-SMT 8.03 4.59
+# Moeva2
+Final-Moeva failed
+# index: 25
+# use_t_bound: False
+Final-SMT 10.35 10.52
+# use_t_bound: True
+Final-SMT 10.05 2.26
+# Moeva2
+Final-Moeva 2.00 9.27
+# index: 26
+# use_t_bound: False
+Final-SMT 6.13 10.08
+# use_t_bound: True
+Final-SMT 5.44 2.63
+# Moeva2
+Final-Moeva 8.00 9.25
+# index: 27
+# use_t_bound: False
+Final-SMT 2.24 9.71
+# use_t_bound: True
+Final-SMT 4.31 2.46
+# Moeva2
+Final-Moeva 10.00 9.15
+# index: 28
+# use_t_bound: False
+Final-SMT 2.13 9.73
+# use_t_bound: True
+Final-SMT 1.89 4.04
+# Moeva2
+Final-Moeva 2.00 9.22
+# index: 29
+# use_t_bound: False
+Final-SMT 5.57 5.60
+# use_t_bound: True
+Final-SMT 5.57 2.52
+# Moeva2
+Final-Moeva failed
+# index: 30
+# use_t_bound: False
+Final-SMT 6.32 5.60
+# use_t_bound: True
+Final-SMT 8.94 2.40
+# Moeva2
+Final-Moeva 8.15 8.97
+# index: 31
+# use_t_bound: False
+Final-SMT 9.11 5.67
+# use_t_bound: True
+Final-SMT 8.12 2.68
+# Moeva2
+Final-Moeva 8.00 9.12
+# index: 32
+# use_t_bound: False
+Final-SMT 2.24 9.62
+# use_t_bound: True
+Final-SMT 1.60 3.49
+# Moeva2
+Final-Moeva 10.00 9.14
+# index: 33
+# use_t_bound: False
+Final-SMT 5.52 10.02
+# use_t_bound: True
+Final-SMT 5.43 3.36
+# Moeva2
+Final-Moeva 8.00 9.06
+# index: 34
+# use_t_bound: False
+Final-SMT 6.08 5.92
+# use_t_bound: True
+Final-SMT 9.27 2.54
+# Moeva2
+Final-Moeva failed
+# index: 35
+# use_t_bound: False
+Final-SMT 11.21 6.54
+# use_t_bound: True
+Final-SMT 10.91 2.60
+# Moeva2
+Final-Moeva 3.00 9.17
+# index: 36
+# use_t_bound: False
+Final-SMT 8.22 5.62
+# use_t_bound: True
+Final-SMT 8.66 2.69
+# Moeva2
+Final-Moeva 8.00 9.17
+# index: 37
+# use_t_bound: False
+Final-SMT 5.29 5.62
+# use_t_bound: True
+Final-SMT 11.14 2.70
+# Moeva2
+Final-Moeva 8.15 8.99
+# index: 38
+# use_t_bound: False
+Final-SMT 7.25 6.08
+# use_t_bound: True
+Final-SMT 12.06 3.21
+# Moeva2
+Final-Moeva 8.00 8.96
+# index: 39
+# use_t_bound: False
+Final-SMT 2.92 9.86
+# use_t_bound: True
+Final-SMT 3.94 2.45
+# Moeva2
+Final-Moeva 8.00 9.07
+# index: 40
+# use_t_bound: False
+Final-SMT 8.25 5.91
+# use_t_bound: True
+Final-SMT 8.49 3.71
+# Moeva2
+Final-Moeva 8.00 9.22
+# index: 41
+# use_t_bound: False
+Final-SMT 14.49 8.77
+# use_t_bound: True
+Final-SMT 12.89 5.13
+# Moeva2
+Final-Moeva 7.00 9.15
+# index: 42
+# use_t_bound: False
+Final-SMT 6.61 10.50
+# use_t_bound: True
+Final-SMT 7.39 2.95
+# Moeva2
+Final-Moeva 7.00 9.11
+# index: 43
+# use_t_bound: False
+Final-SMT 7.25 5.90
+# use_t_bound: True
+Final-SMT 6.00 2.77
+# Moeva2
+Final-Moeva failed
+# index: 44
+# use_t_bound: False
+Final-SMT 6.54 6.11
+# use_t_bound: True
+Final-SMT 7.53 3.06
+# Moeva2
+Final-Moeva 7.00 9.15
+# index: 45
+# use_t_bound: False
+Final-SMT 6.37 5.72
+# use_t_bound: True
+Final-SMT 6.90 3.71
+# Moeva2
+Final-Moeva 2.00 9.17
+# index: 46
+# use_t_bound: False
+Final-SMT 12.91 5.88
+# use_t_bound: True
+Final-SMT 8.00 3.07
+# Moeva2
+Final-Moeva 8.00 9.09
+# index: 47
+# use_t_bound: False
+Final-SMT 6.97 5.77
+# use_t_bound: True
+Final-SMT 8.63 2.72
+# Moeva2
+Final-Moeva 10.00 9.21
+# index: 48
+# use_t_bound: False
+Final-SMT 6.41 10.23
+# use_t_bound: True
+Final-SMT 6.45 5.92
+# Moeva2
+Final-Moeva 12.00 9.04
+# index: 49
+# use_t_bound: False
+Final-SMT 7.36 5.58
+# use_t_bound: True
+Final-SMT 7.79 2.95
+# Moeva2
+Final-Moeva 7.00 9.06
+
+# setting: Case(model_path='dataset/ctu/xgboost_100.json', test_data_path='dataset/ctu/x_test.npy', test_range=range(50, 100), constraints=<class 'constraints.ctu.CtuCostraints'>, dump_dir='output')
+# case adv_dist exec_time(sec)
+# index: 50
+# use_t_bound: False
+Final-SMT 8.43 8.60
+# use_t_bound: True
+Final-SMT 6.25 2.21
+# Moeva2
+Final-Moeva 7.00 9.03
+# index: 51
+# use_t_bound: False
+Final-SMT 7.17 7.54
+# use_t_bound: True
+Final-SMT 7.02 2.55
+# Moeva2
+Final-Moeva 16.00 8.97
+# index: 52
+# use_t_bound: False
+Final-SMT 5.66 5.72
+# use_t_bound: True
+Final-SMT 5.66 4.66
+# Moeva2
+Final-Moeva 8.00 9.29
+# index: 53
+# use_t_bound: False
+Final-SMT 12.11 5.68
+# use_t_bound: True
+Final-SMT 8.03 3.20
+# Moeva2
+Final-Moeva 8.00 9.18
+# index: 54
+# use_t_bound: False
+Final-SMT 6.93 5.91
+# use_t_bound: True
+Final-SMT 6.56 2.69
+# Moeva2
+Final-Moeva failed
+# index: 55
+# use_t_bound: False
+Final-SMT 7.65 6.16
+# use_t_bound: True
+Final-SMT 7.65 2.85
+# Moeva2
+Final-Moeva 16.00 9.05
+# index: 56
+# use_t_bound: False
+Final-SMT 7.15 5.86
+# use_t_bound: True
+Final-SMT 10.01 2.73
+# Moeva2
+Final-Moeva 19.00 9.03
+# index: 57
+# use_t_bound: False
+Final-SMT 6.71 5.61
+# use_t_bound: True
+Final-SMT 5.57 2.35
+# Moeva2
+Final-Moeva 7.00 9.06
+# index: 58
+# use_t_bound: False
+Final-SMT 11.86 5.98
+# use_t_bound: True
+Final-SMT 10.27 3.00
+# Moeva2
+Final-Moeva 8.00 9.10
+# index: 59
+# use_t_bound: False
+Final-SMT 11.83 5.74
+# use_t_bound: True
+Final-SMT 5.39 2.33
+# Moeva2
+Final-Moeva 12.00 9.18
+# index: 60
+# use_t_bound: False
+Final-SMT 8.22 6.00
+# use_t_bound: True
+Final-SMT 7.72 2.79
+# Moeva2
+Final-Moeva 10.00 8.96
+# index: 61
+# use_t_bound: False
+Final-SMT 11.53 5.66
+# use_t_bound: True
+Final-SMT 5.66 2.30
+# Moeva2
+Final-Moeva 7.00 9.03
+# index: 62
+# use_t_bound: False
+Final-SMT 6.53 6.08
+# use_t_bound: True
+Final-SMT 10.71 2.67
+# Moeva2
+Final-Moeva 7.00 9.03
+# index: 63
+# use_t_bound: False
+Final-SMT 11.64 6.04
+# use_t_bound: True
+Final-SMT 10.80 3.72
+# Moeva2
+Final-Moeva failed
+# index: 64
+# use_t_bound: False
+Final-SMT 3.84 10.39
+# use_t_bound: True
+Final-SMT 5.07 2.48
+# Moeva2
+Final-Moeva 4.00 9.08
+# index: 65
+# use_t_bound: False
+Final-SMT 13.21 23.36
+# use_t_bound: True
+Final-SMT 12.08 3.68
+# Moeva2
+Final-Moeva 2.00 9.34
+# index: 66
+# use_t_bound: False
+Final-SMT 1.73 9.79
+# use_t_bound: True
+Final-SMT 1.73 3.83
+# Moeva2
+Final-Moeva 9297.00 8.98
+# index: 67
+# use_t_bound: False
+Final-SMT 11.77 5.87
+# use_t_bound: True
+Final-SMT 8.03 2.76
+# Moeva2
+Final-Moeva 16.00 9.03
+# index: 68
+# use_t_bound: False
+Final-SMT 5.39 5.58
+# use_t_bound: True
+Final-SMT 6.08 2.30
+# Moeva2
+Final-Moeva failed
+# index: 69
+# use_t_bound: False
+Final-SMT 7.27 6.05
+# use_t_bound: True
+Final-SMT 6.23 2.45
+# Moeva2
+Final-Moeva 7.00 9.26
+# index: 70
+# use_t_bound: False
+Final-SMT 3.86 5.94
+# use_t_bound: True
+Final-SMT 2.65 5.15
+# Moeva2
+Final-Moeva 2.00 9.20
+# index: 71
+# use_t_bound: False
+Final-SMT 1.60 9.60
+# use_t_bound: True
+Final-SMT 2.36 5.88
+# Moeva2
+Final-Moeva 10.00 9.07
+# index: 72
+# use_t_bound: False
+Final-SMT 5.25 6.01
+# use_t_bound: True
+Final-SMT 5.05 2.49
+# Moeva2
+Final-Moeva 7.00 9.07
+# index: 73
+# use_t_bound: False
+Final-SMT 5.40 5.88
+# use_t_bound: True
+Final-SMT 6.57 2.74
+# Moeva2
+Final-Moeva 7.00 9.15
+# index: 74
+# use_t_bound: False
+Final-SMT 6.29 5.77
+# use_t_bound: True
+Final-SMT 6.53 2.80
+# Moeva2
+Final-Moeva 2.00 9.27
+# index: 75
+# use_t_bound: False
+Final-SMT 7.53 10.75
+# use_t_bound: True
+Final-SMT 8.75 3.01
+# Moeva2
+Final-Moeva 3.00 9.13
+# index: 76
+# use_t_bound: False
+Final-SMT 9.85 6.73
+# use_t_bound: True
+Final-SMT 9.87 2.22
+# Moeva2
+Final-Moeva 2.00 9.46
+# index: 77
+# use_t_bound: False
+Final-SMT 5.53 5.98
+# use_t_bound: True
+Final-SMT 5.53 2.70
+# Moeva2
+Final-Moeva 7.00 9.06
+# index: 78
+# use_t_bound: False
+Final-SMT 6.37 5.81
+# use_t_bound: True
+Final-SMT 6.82 2.41
+# Moeva2
+Final-Moeva 7.00 9.09
+# index: 79
+# use_t_bound: False
+Final-SMT 14.78 9.14
+# use_t_bound: True
+Final-SMT 11.64 3.74
+# Moeva2
+Final-Moeva 7.00 9.33
+# index: 80
+# use_t_bound: False
+Final-SMT 5.29 9.87
+# use_t_bound: True
+Final-SMT 6.56 3.43
+# Moeva2
+Final-Moeva failed
+# index: 81
+# use_t_bound: False
+Final-SMT 6.69 10.10
+# use_t_bound: True
+Final-SMT 6.43 2.67
+# Moeva2
+Final-Moeva failed
+# index: 82
+# use_t_bound: False
+Final-SMT 5.95 10.18
+# use_t_bound: True
+Final-SMT 7.59 3.06
+# Moeva2
+Final-Moeva 8.00 9.25
+# index: 83
+# use_t_bound: False
+Final-SMT 9.70 5.67
+# use_t_bound: True
+Final-SMT 8.25 3.33
+# Moeva2
+Final-Moeva 12.00 9.27
+# index: 84
+# use_t_bound: False
+Final-SMT 7.75 5.93
+# use_t_bound: True
+Final-SMT 8.03 3.19
+# Moeva2
+Final-Moeva 9.00 9.16
+# index: 85
+# use_t_bound: False
+Final-SMT 6.08 5.77
+# use_t_bound: True
+Final-SMT 9.14 3.21
+# Moeva2
+Final-Moeva failed
+# index: 86
+# use_t_bound: False
+Final-SMT 8.94 20.87
+# use_t_bound: True
+Final-SMT 10.44 2.67
+# Moeva2
+Final-Moeva 2.00 9.32
+# index: 87
+# use_t_bound: False
+Final-SMT 2.40 10.33
+# use_t_bound: True
+Final-SMT 13.80 3.02
+# Moeva2
+Final-Moeva 9.00 9.15
+# index: 88
+# use_t_bound: False
+Final-SMT 5.88 5.82
+# use_t_bound: True
+Final-SMT 5.96 2.81
+# Moeva2
+Final-Moeva 7.00 9.06
+# index: 89
+# use_t_bound: False
+Final-SMT 4.59 10.25
+# use_t_bound: True
+Final-SMT 6.68 2.45
+# Moeva2
+Final-Moeva 8.00 9.19
+# index: 90
+# use_t_bound: False
+Final-SMT 6.88 5.93
+# use_t_bound: True
+Final-SMT 9.07 2.95
+# Moeva2
+Final-Moeva 8.00 9.07
+# index: 91
+# use_t_bound: False
+Final-SMT 4.07 5.79
+# use_t_bound: True
+Final-SMT 4.95 2.39
+# Moeva2
+Final-Moeva 7.00 9.14
+# index: 92
+# use_t_bound: False
+Final-SMT 5.35 5.94
+# use_t_bound: True
+Final-SMT 5.06 2.87
+# Moeva2
+Final-Moeva 7.00 9.07
+# index: 93
+# use_t_bound: False
+Final-SMT 9.57 5.68
+# use_t_bound: True
+Final-SMT 9.93 3.10
+# Moeva2
+Final-Moeva 7.00 9.06
+# index: 94
+# use_t_bound: False
+Final-SMT 2.92 9.89
+# use_t_bound: True
+Final-SMT 2.56 4.07
+# Moeva2
+Final-Moeva 8.00 9.12
+# index: 95
+# use_t_bound: False
+Final-SMT 4.95 5.60
+# use_t_bound: True
+Final-SMT 4.95 2.34
+# Moeva2
+Final-Moeva 7.00 9.02
+# index: 96
+# use_t_bound: False
+Final-SMT 9.11 5.93
+# use_t_bound: True
+Final-SMT 5.39 2.31
+# Moeva2
+Final-Moeva failed
+# index: 97
+# use_t_bound: False
+Final-SMT 5.92 5.79
+# use_t_bound: True
+Final-SMT 6.56 2.86
+# Moeva2
+Final-Moeva failed
+# index: 98
+# use_t_bound: False
+Final-SMT 5.57 5.62
+# use_t_bound: True
+Final-SMT 5.39 2.40
+# Moeva2
+Final-Moeva 7.00 9.07
+# index: 99
+# use_t_bound: False
+Final-SMT 4.96 5.67
+# use_t_bound: True
+Final-SMT 8.04 2.51
+# Moeva2
+Final-Moeva 3.00 9.18
+
