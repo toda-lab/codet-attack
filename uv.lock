@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -25,6 +25,46 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/78/12/bc7256b9bd56051f796ff1bad70f91a38c9a241e6a1e9abb9a49b52394c7/cma-2.7.0.tar.gz", hash = "sha256:f4630d405efdbf4d85ba42b6bdfe5708b716bb088880b938b60c3bfbf1c1cd59", size = 225548, upload-time = "2019-04-25T13:09:13.662Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b9/3b/87a4efbcfeaf3172d81ef843f0b0c34c3ba60ec884aa6777f34f68b57418/cma-2.7.0-py2.py3-none-any.whl", hash = "sha256:136e457c97e837152404b868c4ec6f163dee923fcee8b94ff446d13d4242b227", size = 239101, upload-time = "2019-04-25T13:09:09.196Z" },
+]
+
+[[package]]
+name = "codet-attack"
+version = "1.0.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "constrained-attacks" },
+    { name = "pyscipopt" },
+    { name = "scikit-learn" },
+    { name = "sortedcontainers" },
+    { name = "xgboost", version = "3.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "xgboost", version = "3.4.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "z3-solver" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pyrefly" },
+    { name = "pytest" },
+    { name = "ruff" },
+    { name = "sortedcontainers-stubs" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "constrained-attacks", specifier = ">=0.1.1" },
+    { name = "pyscipopt", specifier = ">=6.2.1" },
+    { name = "scikit-learn", specifier = ">=1.9.0" },
+    { name = "sortedcontainers", specifier = ">=2.4.0" },
+    { name = "xgboost", specifier = ">=3.2.0" },
+    { name = "z3-solver", specifier = ">=5.0.0.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "pyrefly", specifier = ">=1.2.0" },
+    { name = "pytest", specifier = ">=9.1.1" },
+    { name = "ruff", specifier = ">=0.16.2" },
+    { name = "sortedcontainers-stubs", specifier = ">=2.4.3" },
 ]
 
 [[package]]
@@ -827,46 +867,6 @@ wheels = [
 ]
 
 [[package]]
-name = "smt-attack"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "constrained-attacks" },
-    { name = "pyscipopt" },
-    { name = "scikit-learn" },
-    { name = "sortedcontainers" },
-    { name = "xgboost", version = "3.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
-    { name = "xgboost", version = "3.4.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
-    { name = "z3-solver" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pyrefly" },
-    { name = "pytest" },
-    { name = "ruff" },
-    { name = "sortedcontainers-stubs" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "constrained-attacks", specifier = ">=0.1.1" },
-    { name = "pyscipopt", specifier = ">=6.2.1" },
-    { name = "scikit-learn", specifier = ">=1.9.0" },
-    { name = "sortedcontainers", specifier = ">=2.4.0" },
-    { name = "xgboost", specifier = ">=3.2.0" },
-    { name = "z3-solver", specifier = ">=5.0.0.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "pyrefly", specifier = ">=1.2.0" },
-    { name = "pytest", specifier = ">=9.1.1" },
-    { name = "ruff", specifier = ">=0.16.2" },
-    { name = "sortedcontainers-stubs", specifier = ">=2.4.3" },
-]
-
-[[package]]
 name = "sortedcontainers"
 version = "2.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -926,9 +926,9 @@ resolution-markers = [
     "python_full_version < '3.12'",
 ]
 dependencies = [
-    { name = "numpy", marker = "python_full_version < '3.12'" },
-    { name = "nvidia-nccl-cu12", marker = "python_full_version < '3.12' and sys_platform == 'linux'" },
-    { name = "scipy", marker = "python_full_version < '3.12'" },
+    { name = "numpy" },
+    { name = "nvidia-nccl-cu12", marker = "sys_platform == 'linux'" },
+    { name = "scipy" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/91/bb/1eb0242409d22db725d7a88088e6cfd6556829fb0736f9ff69aa9f1e9455/xgboost-3.2.0.tar.gz", hash = "sha256:99b0e9a2a64896cdaf509c5e46372d336c692406646d20f2af505003c0c5d70d", size = 1263936, upload-time = "2026-02-10T11:03:05.542Z" }
 wheels = [
@@ -947,9 +947,9 @@ resolution-markers = [
     "python_full_version >= '3.12'",
 ]
 dependencies = [
-    { name = "numpy", marker = "python_full_version >= '3.12'" },
-    { name = "nvidia-nccl-cu13", marker = "python_full_version >= '3.12' and sys_platform == 'linux'" },
-    { name = "scipy", marker = "python_full_version >= '3.12'" },
+    { name = "numpy" },
+    { name = "nvidia-nccl-cu13", marker = "sys_platform == 'linux'" },
+    { name = "scipy" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/7d/11/2b1de4cb9b7eeb042ca49c7d3b3ed2b77e7645ee6c0f99cf616716f3e8d7/xgboost-3.4.0.tar.gz", hash = "sha256:a6b5d114e7186b5a68c5b08b42297fc76c8c5d7292294220cdb12a6efd59977e", size = 1231819, upload-time = "2026-08-04T11:14:57.216Z" }
 wheels = [
